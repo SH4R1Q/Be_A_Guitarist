@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+}
+nav {
+    overflow : hidden;
+    top: 0px;
+    position:sticky;
+    background-color: rgb(30, 40, 60);
+    /* background-size: cover; */
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-left: 5px;
+    /* border-bottom-right-radius: 10px; */
+}
+img.img{
+    opacity: 0.8;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+h1 {
+    margin-left: 5px;
+    margin-top: 11px;
+    font-size: 7px;
+    color: bisque;
+    float: left;
+}
+span.logo {
+    font-size: 17px;
+    float: left;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+nav ul{
+    float: right;
+    margin-top: 18px;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+nav li a {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: bisque;
+    text-decoration: none;
+}
+nav li a:hover {
+    color: black;
+    font-size: 20px;
+    transition: all 0.5s ease 0s;
+    background-color: white;
+    border-radius: 20px;
+}
+div.contact1 {
+    background-image: url("laptop.jpg");
+    background-size:cover;
+    border-radius: 20px;
+    width: 100%;
+    height: 300px;
+    background-position: 0px -380px;
+    opacity: 0.3;
+}
+div.text {
+    position: absolute;
+    top: 150px;
+    margin-left: 50px;
+}
+p:nth-child(1) {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 10px;
+    color: black;
+}
+p:nth-child(2){
+    font-size: 50px;
+    color: black;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+div.container{
+    margin-top: 50px;
+}
+.container div{
+    align-items: center;
+    text-align: center;
+
+}
+.call {
+    display: inline-block;
+    width: 33.3%;
+    height: 300px;
+}
+.email {
+    display: inline-block;
+    width: 33.3%;
+    height: 300px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.insta {
+    display: inline-block;
+    width: 32%;
+    height: 300px;
+}
+.container div img {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+.container div p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.container div p a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
